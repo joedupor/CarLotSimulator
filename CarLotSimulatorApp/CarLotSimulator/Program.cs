@@ -82,7 +82,10 @@ namespace CarLotSimulator
             foreach (var car in carLot1.Cars)
             {
                 Console.WriteLine($"Make: {car.Make};..... Model: {car.Model};..... Year: {car.Year}");
+                Console.WriteLine();
             }
+
+            Console.WriteLine($"You now own {CarLot.numberOfCars} cars!!");
 
         }
     }
